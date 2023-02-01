@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.c-img{
+    max-height: 520px;
+}
+.inner{
+    overflow: hidden;
+    max-height: 150px;
+}
+.inner img{
+    transition: all 1.5S ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
